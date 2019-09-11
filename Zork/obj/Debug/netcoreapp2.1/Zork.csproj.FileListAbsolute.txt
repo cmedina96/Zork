@@ -9,3 +9,14 @@ C:\Users\Hiraki\Documents\School\Game Tools and Plugins\Zork\Zork\obj\Debug\netc
 C:\Users\Hiraki\Documents\School\Game Tools and Plugins\Zork\Zork\obj\Debug\netcoreapp2.1\Zork.AssemblyInfo.cs
 C:\Users\Hiraki\Documents\School\Game Tools and Plugins\Zork\Zork\obj\Debug\netcoreapp2.1\Zork.dll
 C:\Users\Hiraki\Documents\School\Game Tools and Plugins\Zork\Zork\obj\Debug\netcoreapp2.1\Zork.pdb
+C:\Users\cr922391\Documents\GitHub\Zork\Zork\bin\Debug\netcoreapp2.1\Zork.deps.json
+C:\Users\cr922391\Documents\GitHub\Zork\Zork\bin\Debug\netcoreapp2.1\Zork.runtimeconfig.json
+C:\Users\cr922391\Documents\GitHub\Zork\Zork\bin\Debug\netcoreapp2.1\Zork.runtimeconfig.dev.json
+C:\Users\cr922391\Documents\GitHub\Zork\Zork\bin\Debug\netcoreapp2.1\Zork.dll
+C:\Users\cr922391\Documents\GitHub\Zork\Zork\bin\Debug\netcoreapp2.1\Zork.pdb
+C:\Users\cr922391\Documents\GitHub\Zork\Zork\obj\Debug\netcoreapp2.1\Zork.csprojAssemblyReference.cache
+C:\Users\cr922391\Documents\GitHub\Zork\Zork\obj\Debug\netcoreapp2.1\Zork.csproj.CoreCompileInputs.cache
+C:\Users\cr922391\Documents\GitHub\Zork\Zork\obj\Debug\netcoreapp2.1\Zork.AssemblyInfoInputs.cache
+C:\Users\cr922391\Documents\GitHub\Zork\Zork\obj\Debug\netcoreapp2.1\Zork.AssemblyInfo.cs
+C:\Users\cr922391\Documents\GitHub\Zork\Zork\obj\Debug\netcoreapp2.1\Zork.dll
+C:\Users\cr922391\Documents\GitHub\Zork\Zork\obj\Debug\netcoreapp2.1\Zork.pdb
