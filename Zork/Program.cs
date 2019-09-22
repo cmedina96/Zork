@@ -1,6 +1,6 @@
 ﻿// Name: Cristian Medina
 // Date: 9/22/2019
-// Assignment: "5 - The Game World"
+// Assignment: "6 - Expanding the Frontier"
 
 using System;
 
@@ -8,16 +8,17 @@ namespace Zork
 {
     class Program
     {
-        private static string[] Rooms =
+        private static string[,] Rooms =
         {
-         "Forest",
-         "West of House",
-         "Behind House",
-         "Clearing",
-         "Canyon View"
+            { "Rocky Trail", "South of House", "Canyon View" },
+            { "Forest", "West of House", "Behind House" },
+            { "Dense Woods", "North of House", "Clearing" }
         };
 
-        private static int CurrentRoom = 1;
+        /// Store current room location
+        // private static int CurrentRoom = 1;
+        private static int LocationRow = 1;
+        private static int LocationColumn = 1;
 
         /*
         - On every iteration of the game loop, display the location of the player (the name of the room).
@@ -36,37 +37,66 @@ namespace Zork
             switch (command)
             {
                 case Commands.NORTH:
-                case Commands.SOUTH:
-                    Console.WriteLine("The way is shut!");
-                    return false;
-
-                case Commands.WEST:
-                    if (CurrentRoom > 0)
+                    if (LocationRow > 0)
                     {
-                        CurrentRoom--;
-                        Console.WriteLine("You moved WEST.");
-                        Console.WriteLine(Rooms[CurrentRoom]);
+                        LocationRow--;
+                        // Console.WriteLine("You moved NORTH.");
+                        Console.WriteLine(Rooms[LocationRow, LocationColumn]);
                         return true;
                     }
 
                     else
                     {
                         Console.WriteLine("The way is shut!");
+                        Console.WriteLine(Rooms[LocationRow, LocationColumn]);
+                        return false;
+                    }
+
+                case Commands.SOUTH:
+                    if (LocationRow < Rooms.GetLength(0) - 1) // Check length of rows
+                    {
+                        LocationRow++;
+                        // Console.WriteLine("You moved SOUTH.");
+                        Console.WriteLine(Rooms[LocationRow, LocationColumn]);
+                        return true;
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("The way is shut!");
+                        Console.WriteLine(Rooms[LocationRow, LocationColumn]);
+                        return false;
+                    }
+
+                case Commands.WEST:
+                    if (LocationColumn > 0)
+                    {
+                        LocationColumn--;
+                        // Console.WriteLine("You moved WEST.");
+                        Console.WriteLine(Rooms[LocationRow, LocationColumn]);
+                        return true;
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("The way is shut!");
+                        Console.WriteLine(Rooms[LocationRow, LocationColumn]);
                         return false;
                     }
 
                 case Commands.EAST:
-                    if (CurrentRoom < Rooms.Length - 1)
+                    if (LocationColumn < Rooms.GetLength(1) - 1) // Check the length of columns
                     {
-                        CurrentRoom++;
-                        Console.WriteLine("You moved EAST.");
-                        Console.WriteLine(Rooms[CurrentRoom]);
+                        LocationColumn++;
+                        // Console.WriteLine("You moved EAST.");
+                        Console.WriteLine(Rooms[LocationRow, LocationColumn]);
                         return true;
                     }
 
                     else
                     {
                         Console.WriteLine("The way is shut!");
+                        Console.WriteLine(Rooms[LocationRow, LocationColumn]);
                         return false;
                     }
 
@@ -80,7 +110,7 @@ namespace Zork
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Zork!\n" + Rooms[CurrentRoom]);
+            Console.WriteLine("Welcome to Zork!\n" + Rooms[LocationRow, LocationColumn]);
 
             Commands command = Commands.UNKNOWN;
             while (command != Commands.QUIT)
