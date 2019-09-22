@@ -688,33 +688,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cr922391\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\axphi\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cr922391\\Documents\\GitHub\\Zork\\Zork\\Zork.csproj",
+      "projectUniqueName": "C:\\Users\\axphi\\Documents\\GitHub\\Zork\\Zork\\Zork.csproj",
       "projectName": "Zork",
-      "projectPath": "C:\\Users\\cr922391\\Documents\\GitHub\\Zork\\Zork\\Zork.csproj",
-      "packagesPath": "C:\\Users\\cr922391\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cr922391\\Documents\\GitHub\\Zork\\Zork\\obj\\",
+      "projectPath": "C:\\Users\\axphi\\Documents\\GitHub\\Zork\\Zork\\Zork.csproj",
+      "packagesPath": "C:\\Users\\axphi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\axphi\\Documents\\GitHub\\Zork\\Zork\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\cr922391\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\axphi\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -732,7 +727,6 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
