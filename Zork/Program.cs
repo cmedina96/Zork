@@ -71,11 +71,11 @@ namespace Zork
                     break;
 
                 case Commands.EAST when Location.Column < Rooms.GetLength(1) - 1:
-                    Location.Column--;
+                    Location.Column++;
                     break;
 
                 case Commands.WEST when Location.Column > 0:
-                    Location.Column++;
+                    Location.Column--;
                     break;
 
                 default:
