@@ -31,3 +31,5 @@ C:\Users\axphi\Documents\GitHub\Zork\Zork\obj\Debug\netcoreapp2.1\Zork.AssemblyI
 C:\Users\axphi\Documents\GitHub\Zork\Zork\obj\Debug\netcoreapp2.1\Zork.AssemblyInfo.cs
 C:\Users\axphi\Documents\GitHub\Zork\Zork\obj\Debug\netcoreapp2.1\Zork.dll
 C:\Users\axphi\Documents\GitHub\Zork\Zork\obj\Debug\netcoreapp2.1\Zork.pdb
+C:\Users\axphi\Documents\GitHub\Zork\Zork\bin\Debug\netcoreapp2.1\Rooms.txt
+C:\Users\axphi\Documents\GitHub\Zork\Zork\bin\Debug\netcoreapp2.1\Rooms2.txt
