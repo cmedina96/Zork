@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\axphi\\Documents\\GitHub\\Zork\\Zork\\Zork.csproj": {}
+    "C:\\Users\\cr922391\\Documents\\GitHub\\Zork\\Zork\\Zork.csproj": {}
   },
   "projects": {
-    "C:\\Users\\axphi\\Documents\\GitHub\\Zork\\Zork\\Zork.csproj": {
+    "C:\\Users\\cr922391\\Documents\\GitHub\\Zork\\Zork\\Zork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\axphi\\Documents\\GitHub\\Zork\\Zork\\Zork.csproj",
+        "projectUniqueName": "C:\\Users\\cr922391\\Documents\\GitHub\\Zork\\Zork\\Zork.csproj",
         "projectName": "Zork",
-        "projectPath": "C:\\Users\\axphi\\Documents\\GitHub\\Zork\\Zork\\Zork.csproj",
-        "packagesPath": "C:\\Users\\axphi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\axphi\\Documents\\GitHub\\Zork\\Zork\\obj\\",
+        "projectPath": "C:\\Users\\cr922391\\Documents\\GitHub\\Zork\\Zork\\Zork.csproj",
+        "packagesPath": "C:\\Users\\cr922391\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cr922391\\Documents\\GitHub\\Zork\\Zork\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\axphi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\cr922391\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -42,9 +44,14 @@
         "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
             }
           },
           "imports": [
